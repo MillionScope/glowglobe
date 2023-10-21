@@ -27,7 +27,7 @@ const config: DocsThemeConfig = {
       </span>
     </>
   ),
-  head: ({ title, meta }) => {
+  head: () => {
     const ogImage =
       "https://repository-images.githubusercontent.com/429536908/62a4e686-8613-4b45-b7bb-fa35b558ae8e"
 
@@ -48,7 +48,7 @@ const config: DocsThemeConfig = {
         <meta name="twitter:image" content={ogImage} />
         <meta
           name="og:title"
-          content={title ? title + " – glowglobe" : "glowglobe"}
+          content="GlowGlobe - A 5kB WebGL globe library."
         />
         <meta name="og:image" content={ogImage} />
         <meta name="apple-mobile-web-app-title" content="glowglobe" />
@@ -56,7 +56,7 @@ const config: DocsThemeConfig = {
     )
   },
   footer: {
-    text: ({ locale }) => {
+    text: () => {
       return (
         <p className="no-underline text-current font-semibold">
           Made by{" "}

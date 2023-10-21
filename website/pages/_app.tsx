@@ -7,7 +7,9 @@ export default function Nextra({ Component, pageProps }) {
   const getLayout = Component.getLayout || ((page) => page)
   return getLayout(
     <>
-      <Head>{}</Head>
+      <Head>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       <Component {...pageProps} />
       <Analytics />
     </>
