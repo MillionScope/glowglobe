@@ -18,13 +18,13 @@ const config: DocsThemeConfig = {
   logo: (
     <>
       <Logo height={18} />
-      <span
+      {/* <span
         className="mx-2 font-extrabold hidden md:inline select-none bg-red-500"
         title="glowglobe"
         style={{ whiteSpace: "nowrap" }}
       >
         Cobe
-      </span>
+      </span> */}
     </>
   ),
   head: () => {
