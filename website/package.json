@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/millionscope/glowglobe#readme",
   "dependencies": {
+    "@vercel/analytics": "^1.1.1",
     "cobe": "^0.6.3",
     "glowglobe": "*",
     "leva": "^0.9.35",
