@@ -4,10 +4,10 @@ title: Rotate to Location
 
 # Rotate to Location
 
-import createGlobe from "glowglobe";
+import createGlobe from "cobe";
 import { useEffect, useRef } from "react";
 
-export function glowglobe() {
+export function Cobe() {
   const canvasRef = useRef()
   const locationToAngles = (lat, long) => {
     return [Math.PI - ((long * Math.PI) / 180 - Math.PI / 2), (lat * Math.PI) / 180]
@@ -95,7 +95,7 @@ export function glowglobe() {
   </div>
 }
 
-<glowglobe/>
+<Cobe/>
 
 Transforming longitude and latitude to angles, and controlling the animation direction by comparing current angles to the target.
 

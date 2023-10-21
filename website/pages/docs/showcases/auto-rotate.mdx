@@ -4,10 +4,10 @@ title: Auto Rotate
 
 # Auto Rotate
 
-import createGlobe from "glowglobe";
+import createGlobe from "cobe";
 import { useEffect, useRef } from "react";
 
-export function glowglobe() {
+export function Cobe() {
   const canvasRef = useRef();
   useEffect(() => {
     let phi = 0;
@@ -61,7 +61,7 @@ export function glowglobe() {
   </div>
 }
 
-<glowglobe/>
+<Cobe/>
 
 Change the `phi` value over time.
 
