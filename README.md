@@ -20,7 +20,7 @@ globe.glowGlobe();
 
 ## Author
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/andrewmcodes.svg?style=social)](https://twitter.com/MillionScope)
+[![Twitter Follow](https://img.shields.io/twitter/follow/MillionScope.svg?style=social)](https://twitter.com/MillionScope)
 
 ## License
 
