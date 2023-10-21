@@ -1,0 +1,30 @@
+{
+  "name": "glowglobe",
+  "version": "0.6.3",
+  "type": "module",
+  "main": "./dist/index.esm.js",
+  "files": [
+    "dist/**"
+  ],
+  "types": "./dist/index.d.ts",
+  "repository": "millionscope/glowglobe",
+  "license": "MIT",
+  "scripts": {
+    "build:glslx": "glslx src/shader.frag --output=src/shader.min.js --format=js",
+    "build:esm": "node scripts/build.js && cp src/index.d.ts dist/index.d.ts",
+    "build": "pnpm build:glslx && pnpm build:esm"
+  },
+  "dependencies": {
+    "phenomenon": "^1.6.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.19.5",
+    "glslx": "^0.3.0",
+    "next": "^13.5.6",
+    "nextra": "2.13.2",
+    "nextra-theme-docs": "2.13.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
+  }
+}
