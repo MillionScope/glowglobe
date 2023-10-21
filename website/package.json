@@ -1,6 +1,6 @@
 {
   "name": "glowglobe-site",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "theme.config.js",
   "dependencies": {
@@ -18,6 +18,6 @@
     "dev": "next dev",
     "start": "next start"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "MillionScope <millionscopes@gmail.com>",
   "license": "MIT"
 }

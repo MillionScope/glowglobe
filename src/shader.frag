@@ -1,5 +1,5 @@
-// Created by Shu Ding 2021.
-// g@shud.in
+// Created by MillionScope
+// millionscopes@gmail.com
 
 precision highp float;
 uniform vec2 uResolution;
