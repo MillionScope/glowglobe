@@ -1,21 +1,22 @@
-# GlobeGlobe.js
+# GlowGlobe.js
 
 Any type of glow globe you need
 
 ## Installation
 
 ```bash
-npm i globeglobe
+npm i glowglobe
 ```
 
 ## Usage
 
 ```js
-import { GlobeGlobe } from "globeglobe";
+import { Canvas } from '@react-three/fiber'
+import { GlowGlobe } from "glowglobe";
 
-const globe = new GlobeGlobe();
-
-globe.glowGlobe();
+<Canvas>
+    <GlowGlobe/>
+</Canvas>
 ```
 
 ## Author
