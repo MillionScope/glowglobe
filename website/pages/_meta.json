@@ -1,15 +1,24 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
+  "index": {
+    "title": "Home",
+    "type": "page",
+    "display": "hidden",
+    "theme": {
+      "sidebar": false,
+      "toc": false,
+      "footer": true,
+      "pagination": true,
+      "breadcrumb": false
+    }
+  },
+  "docs": {
+    "title": "Docs",
     "type": "page"
   },
-  "contact": {
-    "title": "Contact ↗",
+  "playground": {
     "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
+    "theme": {
+      "layout": "raw"
+    }
   }
 }
