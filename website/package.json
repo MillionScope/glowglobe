@@ -1,23 +1,34 @@
 {
   "name": "glowglobe-site",
   "version": "0.0.1",
-  "description": "",
-  "main": "theme.config.js",
-  "dependencies": {
-    "glowglobe": "workspace:*",
-    "leva": "^0.9.34",
-    "next": "^12.1.6-canary.6",
-    "nextra": "2.0.0-alpha.56",
-    "nextra-theme-docs": "2.0.0-alpha.59",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-spring": "^9.4.4"
-  },
+  "description": "Any glow globe you need",
   "scripts": {
-    "build": "next build",
     "dev": "next dev",
+    "build": "next build",
     "start": "next start"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/millionscope/glowglobe.git"
+  },
   "author": "MillionScope <millionscopes@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/millionscope/glowglobe/issues"
+  },
+  "homepage": "https://github.com/millionscope/glowglobe#readme",
+  "dependencies": {
+    "glowglobe": "*",
+    "leva": "^0.9.35",
+    "react-spring": "^9.7.3",
+    "next": "^13.5.6",
+    "nextra": "latest",
+    "nextra-theme-docs": "latest",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "20.8.7",
+    "typescript": "^5.2.2"
+  }
 }

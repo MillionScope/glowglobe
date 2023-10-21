@@ -32,6 +32,7 @@ export default {
     )
   },
   head: ({ title, meta }) => {
+    console.log(title, meta);
     const ogImage =
       'https://repository-images.githubusercontent.com/429536908/62a4e686-8613-4b45-b7bb-fa35b558ae8e'
 
@@ -41,11 +42,11 @@ export default {
         <meta httpEquiv='Content-Language' content='en' />
         <meta
           name='description'
-          content={meta.description || 'A 5kB WebGL globe library.'}
+          content={'A 5kB WebGL globe library.'} // description | 
         />
         <meta
           name='og:description'
-          content={meta.description || 'A 5kB WebGL globe library.'}
+          content={'A 5kB WebGL globe library.'} // description | 
         />
         <meta name='twitter:card' content='summary_large_image' />
         <meta name='twitter:site' content='@millionscope_' />
@@ -60,23 +61,23 @@ export default {
     return (
       <p className='no-underline text-current font-semibold'>
         Made by{' '}
-        <a
-          href='https://twitter.com/millionscope_'
+        <Link
+          id='https://twitter.com/millionscope_'
           target='_blank'
           rel='noopener'
           className='no-underline font-semibold'
         >
           @millionscope_
-        </a>
+        </Link>
         , deployed on{' '}
-        <a
-          href='https://vercel.com/?utm_source=glowglobe'
+        <Link
+          id='https://vercel.com/?utm_source=glowglobe'
           target='_blank'
           rel='noopener'
           className='no-underline font-semibold'
         >
           Vercel
-        </a>
+        </Link>
         .
       </p>
     )
