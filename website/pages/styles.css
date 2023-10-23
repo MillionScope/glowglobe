@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+/* body {
+  background-color: red !important;
+} */
+
 .nextra-body {
   width: 100%;
 }
@@ -49,8 +53,4 @@ a {
 .dark .cta-container .cta:active {
   color: #fff;
   box-shadow: 0 0 0 #333, 0 0 100px #444 inset;
-}
-
-article code {
-  font-family: "IBM Plex Mono", monospace;
 }
